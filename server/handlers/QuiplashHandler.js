@@ -127,8 +127,9 @@ export function initializeQuiplashHandler(io) {
     socket.on(WS_EVENT.INCOMING.DISCONNECT, () => {
       console.log(`${socket.nickname} has disconnected from room ${socket.roomCode}`);
       io.in(socket.roomCode).emit(WS_EVENT.OUTGOING.PLAYER_DISCONNECTED, socket.nickname);
-      deleteRoom(socket.roomCode);
-      deleteSavedPromptsForRoom(socket.roomCode);
+      // pop player instead of deleting room rooms[roomCode].players.pop(${socket.nickname})
+      // deleteRoom(socket.roomCode);
+      // deleteSavedPromptsForRoom(socket.roomCode);
     });
   });
 }

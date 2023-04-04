@@ -27,5 +27,5 @@ const prompts = [
   "If Tristan had an extra room in his apartment, he\u2019d probably use it for ____.",
   "If Tristan had a sandwich named after him, the two main ingredients would be ____.",
   "If Tristan could know one piece of information in the universe, it would be ____.",
-  /* something Houston-related? Tristan is from Houston, and the Houston Rockets beat the Phillies in the World Series this year. /
+  /* something Houston-related? Tristan is from Houston, and the Houston Rockets beat the Phillies in the World Series this year. */
 ];

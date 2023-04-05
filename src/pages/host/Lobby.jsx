@@ -5,6 +5,7 @@ import { getHostSocket, initializeHostSocketIoConnection } from "../../SocketIoC
 import { playBackgroundMusic, playWooYeahSound } from "./Sounds";
 import "./Lobby.css";
 import tll_white_coat from "../../images/tllim_white_coat.png";
+import minn_lab_logo from "../../images/MinnLabLogo.png";
 
 class Lobby extends Component {
   state = { lobbyPlayers: [] };
@@ -96,6 +97,8 @@ class Lobby extends Component {
         </table>
         <div>
           <img src={tll_white_coat} className="tll_image_left" />
+          <img src={minn_lab_logo} className="minn_lab_logo_right" />
+          <h3 className="author_note" >Game modified by Katie Tsai and Emilia Chen</h3>
         </div>
       </div>
 

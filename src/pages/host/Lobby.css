@@ -94,6 +94,20 @@
 .tll_image_left {
   position: relative;
   left: -75vh;
-  top: -48.5vh;
+  top: -35.5vh;
   transform: scale(0.9);
+}
+
+.minn_lab_logo_right {
+  position: relative;
+  left: 53vh;
+  top: -120.5vh;
+  transform: scale(0.1);
+}
+
+.author_note {
+  position: relative;
+  color: white;
+  left: 60vh;
+  top: -180.5vh;
 }

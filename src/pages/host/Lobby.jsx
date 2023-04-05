@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { getHostSocket, initializeHostSocketIoConnection } from "../../SocketIoConnection";
 import { playBackgroundMusic, playWooYeahSound } from "./Sounds";
 import "./Lobby.css";
+import tll_white_coat from "../../images/tllim_white_coat.png";
 
 class Lobby extends Component {
   state = { lobbyPlayers: [] };
@@ -93,7 +94,11 @@ class Lobby extends Component {
             </td>
           </tr>
         </table>
+        <div>
+          <img src={tll_white_coat} className="tll_image_left" />
+        </div>
       </div>
+
     );
   }
 }

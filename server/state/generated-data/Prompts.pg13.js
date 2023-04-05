@@ -27,5 +27,11 @@ const prompts = [
   "If Tristan had an extra room in his apartment, he\u2019d probably use it for ____.",
   "If Tristan had a sandwich named after him, the two main ingredients would be ____.",
   "If Tristan could know one piece of information in the universe, it would be ____.",
+  "Oh no, Tristan ate all the ___ again.",
+  "What’s Tristan’s most expensive lab reagent purchase?",
+  "What is the first thing Tristan does upon arriving to lab?",
+  "What language is Tristan most likely to learn next?",
+  "What hobby has Tristan always wanted to take up in his free time, when WeDon\u2019tWork?",
+  "If Tristan could travel to the past and switch seats with someone at Minn lab, whose seat would Tristan most likely to take?",
   /* something Houston-related? Tristan is from Houston, and the Houston Rockets beat the Phillies in the World Series this year. */
 ];

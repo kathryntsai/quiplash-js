@@ -8,7 +8,7 @@ const prompts = [
   "Define the axes on which Tristan rates his food.",
   "Tristan\u2019s dog is named Tiger. What would Tristan name his car?",
   "What is Tristan\u2019s go-to workout song?",
-  "What does Tristan say his favorite movie is?",
+  "What does everyone think Tristan's favorite movie is? (Bonus: what's his actual favorite movie?)",
   "Tristan has lost his water bottle again.  Where did he leave it this time?",
   "Tristan locked himself out of the house.  Whom does he call?",
   "Tristan has a sweet craving. What does he get from CVS?",
@@ -43,5 +43,6 @@ const prompts = [
   "Tristan is hungry on a Saturday. What unseasoned dish on Tristan\u2019s signature menu is the most palatable?",
   "What is Tristan as an ice cream flavor?",
   // "Tristan is hungover on a Saturday. What does he cook to cure it?",
+  // Who would Tristan want to do laundry and taxes with?
   /* something Houston-related? Tristan is from Houston, and the Houston Rockets beat the Phillies in the World Series this year. */
 ];

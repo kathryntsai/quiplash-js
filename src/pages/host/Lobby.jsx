@@ -95,12 +95,6 @@ class Lobby extends Component {
             </td>
           </tr>
         </table>
-        <div>
-          <img src={tll_white_coat} className="tll_image_left" />
-          <img src={minn_lab_logo} className="minn_lab_logo_right" />
-          <h3 className="author_note" >Game modified by Katie Tsai and Emilia Chen</h3>
-          <h3 className="author_note" >Questions contributed by Nondh, Joe, Nob, Tiff</h3>
-        </div>
       </div>
 
     );

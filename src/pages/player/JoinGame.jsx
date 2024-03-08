@@ -63,7 +63,7 @@ class JoinGame extends React.Component {
         </div>
         <form onSubmit={this.handleJoinClick}>
           <h1>Quiplash: Enough About Ashley!</h1>
-          <h2><Emoji symbol="👨‍⚕️💊🧫🏥" /> Join a Game <Emoji symbol="🏃🏻‍♂️🕺🏻🛼♟️" /></h2>
+          <h2><Emoji symbol="👩‍⚕️💊🧫🏥" /> Join a Game <Emoji symbol="📖🎾🐉🧋" /></h2>
           <div className="join-game-container">
             <label className="join-form-label">Room Code</label>
             <input

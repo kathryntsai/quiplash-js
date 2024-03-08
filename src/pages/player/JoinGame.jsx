@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { clearSockets, initializePlayerSocketIoConnection } from "../../SocketIoConnection";
 import "./JoinGame.css";
 import tll_white_coat from "../../images/tllim_white_coat.png";
+import at_jpg from "../../images/at.jpg"
 
 const Emoji = props => (
   <span
@@ -87,6 +88,9 @@ class JoinGame extends React.Component {
             Play
           </button>
           <div>{this.state.errorMessage}</div>
+          <div>
+            <img src={at_jpg} className="tll_image_left" />
+          </div>
         </form>
       </div>
     );
